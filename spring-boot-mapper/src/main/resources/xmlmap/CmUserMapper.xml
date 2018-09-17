@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.boot.module.cm.CmUserMapper">
+  <resultMap id="BaseResultMap" type="com.example.boot.module.cm.CmUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="user_code" jdbcType="VARCHAR" property="userCode" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="user_real_name" jdbcType="VARCHAR" property="userRealName" />
+    <result column="mobile" jdbcType="VARCHAR" property="mobile" />
+    <result column="telphone" jdbcType="VARCHAR" property="telphone" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="user_level" jdbcType="INTEGER" property="userLevel" />
+    <result column="qq_acount" jdbcType="VARCHAR" property="qqAcount" />
+    <result column="wx_account" jdbcType="VARCHAR" property="wxAccount" />
+    <result column="wb_account" jdbcType="VARCHAR" property="wbAccount" />
+    <result column="ip_address" jdbcType="VARCHAR" property="ipAddress" />
+    <result column="del_flag" jdbcType="BIT" property="delFlag" />
+    <result column="creater" jdbcType="VARCHAR" property="creater" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="modifier" jdbcType="VARCHAR" property="modifier" />
+    <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+</mapper>
